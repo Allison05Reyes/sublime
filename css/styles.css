@@ -1,86 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
 }
 
-body{
-    background-color: #ffc1bf;
+body {
+  background-color: #ffc1bf;
 }
 
-.header{
-    background-color: white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 85px;
-    padding: 5px 10%;
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
 }
 
-.header .logo{
-    cursor: pointer;
-    margin-right: auto;
+.header .logo {
+  cursor: pointer;
+  margin-right: auto;
 }
 
-.header .logo img{
-    height: 75px;
-    width: auto;
-    transition: all 0.3s;
+.header .logo img {
+  height: 75px;
+  width: auto;
+  transition: all 0.3s;
 }
 
-.header .logo img:hover{
-    transform: scale(1.2);
+.header .logo img:hover {
+  transform: scale(1.2);
 }
 
-.header .nav-links{
-    list-style: none;
+.header .nav-links {
+  list-style: none;
 }
 
-.header .nav-links li{
-    display: inline-block;
-    padding: 0 20px;    
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
 }
 
-.header .nav-links li:hover{
-    transform: scale(1.1);
+.header .nav-links li:hover {
+  transform: scale(1.1);
 }
 
-.header .nav-links a{
-    font-size: 700;
-    color: #151616;
-    text-decoration: none;    
+.header .nav-links a {
+  color: #151616;
+  text-decoration: none;
 }
 
-.header .nav-links li a:hover{
-    color: #ffc1bf;
+.header .nav-links li a:hover {
+  color: #ffc1bf;
+  font-weight: 900;
 }
 
-.header .btn button{
-    margin-left: 20px;
-    font-weight: 700;
-    color: #1a8fc2;
-    padding: 9px 25px;
-    background: #eceff1;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+.header .btn button {
+  margin-left: 20px;
+  font-weight: 700;
+  color: #1a8fc2;
+  padding: 9px 25px;
+  background: #eceff1;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 
-.header .btn button:hover{
-    background-color: #e2f1f8;
-    color: #970884;
-    transform: scale(1.1);
-    border: 0.5 solid rgb(80, 80, 252);
-    outline: 2px solid blue;
-    outline-offset: 3px;
+.header .btn button:hover {
+  background-color: #e2f1f8;
+  color: #970884;
+  transform: scale(1.1);
+  border: 0.5 solid rgb(80, 80, 252);
+  outline: 2px solid blue;
+  outline-offset: 3px;
 }
 
 /*MAIKI*/
-
+.titulo {
+  font-family: Mangal;
+  font-size: 50px;
+  letter-spacing: 10px;
+  word-spacing: 1px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+}
+.container {
+  display: flex;
+  height: 500px;
+  width: 100%;
+  margin-top: 50px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.contenedor-ola {
+  display: flex;
+  width: 70%;
+  height: 500px;
+  margin-right: 10px;
+  background-color: white;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
+.contenido {
+}
 
 /*Maiki*/
