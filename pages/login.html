@@ -8,6 +8,7 @@
     <title>Iniciar Sesion | Sublime Art</title>
     <link rel="stylesheet" href="../css/styles.css"> 
 </head>
+<body>
 <header class="header">
     <div class="logo">
         
@@ -20,17 +21,27 @@
 </ul>
     </nav>
     </header>
+    <div class="fondo-login">
     <section class="contenedor-form">
         <form action="" class="form">
             <div class="titulo-form">
                 <h3>Log In</h3>
             </div>
-            <label for="">Correo</label>
-            <input type="email" class="correo" name="correo" id="correo">
-            <label for="">Contraseña</label>
-            <input type="password" class="contraseña" id="contraseña" id="contraseña">
-            <button class="btn-log">Ingresar</button>
+            <label for="correo">Correo</label>
+            <input type="email" class="correo" name="correo" id="correo" placeholder="Introduce tu correo" required>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" class="contraseña" id="contraseña" name="contraseña" placeholder="Introduce tu contraseña" required>
+            <a href="" class="recover-pass">¿Olvidaste tu contraseña?</a>
+            <button class="ingresar">
+                Sign up
+                <div class="arrow-wrapper">
+                    <div class="arrow"></div>
+                </div>
+            </button>
+           <p class="registrar-text"> ¿Aun no tienes cuenta?</p>
+           <a class="registrate" href="./registrar.html">!Registrate Ahora¡</a>
         </form>
     </section>
+</div>
 </body>
 </html>

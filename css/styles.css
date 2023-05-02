@@ -171,7 +171,6 @@ body {
 .contenido_2 {
     height: 100%;
     width: 50%;
-    background-color: ;
     border-bottom-left-radius: 70px;
     text-align: center;
 }
@@ -290,10 +289,10 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 500px;
+    height: 600px;
   }
   .form{
-    width: 25%;
+    width: 30%;
     height: 100%;
     background-color: #e2f1f8;
     border-radius: 20px;
@@ -313,8 +312,125 @@ body {
     font-size: 30px;
     top: 25%;
   }
-  .btn-log{
+  .form > label, input{
+    display: block;
+    margin: 20px;
+  }
+  .form > label{
+    text-align: start;
+    margin-left: 50px;
+  }
+  .form > input{
+    border: none;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    padding: 8px;
+  }
+  .form > input:hover,
+  .form > input:focus{
+    border-bottom: #08bbff solid 4px;
+    border-radius: 10px;
+    outline: none;
+  }
+  .recover-pass{
+    font-size: 15px;
+    display: block;
+    text-align: end;
+    margin: 20px;
+    color: #151616;
+    text-decoration: none;
     
+  }
+  .ingresar {
+    --primary-color: #08bbff;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 10px;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+    margin: 0 auto;
+    
+  }
+  
+  .ingresar .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ingresar .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  .ingresar .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  .ingresar:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .ingresar:hover .arrow {
+    background: var(--secondary-color);
+  }
+  
+  .ingresar:hover .arrow:before {
+    right: 0;
+  }
+  .registrar-text{
+    font-size: 13px;
+    color: #4d4d4d;
+    text-align: center;
+    margin-top:50px;
+  }
+  .registrate{
+    display: block;
+    color:#08bbff;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+  }
+  .fondo-login{
+    height: 600px;
+    background-image: url(../img/Sublimacion.jpg);
+  }
+  .ubicacion{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+  }
+  .mapa{
+    margin: 20px;
+
   }
 
 /*Maiki*/
