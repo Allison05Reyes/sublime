@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #ffc1bf;
+    background-color: white;
 }
 
 .header {
@@ -86,7 +86,7 @@ body {
     font-size: 2.5rem;
     letter-spacing: 10px;
     word-spacing: 1px;
-    color: #000000;
+    color: #fff;
     font-weight: normal;
     text-decoration: none;
     font-style: normal;
@@ -206,7 +206,7 @@ body {
     bottom: 30px;
     right: 30px;
     background: #0df053;
-    color: #000;
+    color: #fff;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
@@ -326,6 +326,7 @@ body {
     height: 40px;
     margin: 0 auto;
     padding: 8px;
+    border-radius: 12px;
   }
   .form > input:hover,
   .form > input:focus{
@@ -337,7 +338,7 @@ body {
     font-size: 15px;
     display: block;
     text-align: end;
-    margin: 20px;
+    margin: 40px;
     color: #151616;
     text-decoration: none;
     
@@ -419,7 +420,7 @@ body {
   }
   .fondo-login{
     height: 600px;
-    background-image: url(../img/Sublimacion.jpg);
+    background-imag
   }
   .ubicacion{
     display: flex;
@@ -429,8 +430,117 @@ body {
     background-color: whitesmoke;
   }
   .mapa{
-    margin: 20px;
+    margin: 10px;
+    width: 2px;
+    height: 2px;
+
+    
 
   }
 
 /*Maiki*/
+
+/*Allis*/
+
+#hero.{
+  min-height: 100vh;
+  position: relative;
+}
+
+video {
+  position:absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow:hidden;
+}
+
+.capa {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:#1c1c1d;
+  opacity: 0.5;
+  mix-blend-mode: over;
+}
+
+.titulo
+{
+position: relative;
+z-index: 2;
+}
+
+.contenido2{
+  position: relative;
+z-index: 2;
+
+}
+
+.boton-centrar{
+  position: relative;
+z-index: 2;
+}
+
+.contenido_2{
+  position: relative;
+z-index: 2;
+}
+
+.contenido2_2{
+  position: relative;
+z-index: 2;
+
+}
+
+.mivideo{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.capa{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.logo{
+  position: relative;
+  z-index: 2;
+}
+.nav-links{
+  position: relative;
+  z-index: 2;
+}
+.button{
+  position: relative;
+  z-index: 2; 
+
+}
+.mapa{
+  position: relative;
+  z-index: 2; 
+}
+
+
+.descrp-ubicacion{
+  position: relative;
+  z-index: 2; 
+ 
+}
+.btn{
+  position: relative;
+  z-index: 2; 
+
+}
+.descrp-ubicacion{
+  text-align:right; 
+  display: flex;
+  justify-content: center;
+
+}
