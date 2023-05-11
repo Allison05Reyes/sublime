@@ -134,6 +134,7 @@ body {
     height: 100%;
     width: 50%;
     border-bottom-right-radius: 70px;
+    padding: 5px;
 }
 
 .contenido2>h2 {
@@ -143,9 +144,9 @@ body {
 
 .contenido2>p {
     margin: 20px;
-    position: relative;
     text-align: justify;
     top: 35%;
+    padding: 1px;
 }
 
 /*segundo section*/
@@ -173,6 +174,7 @@ body {
     width: 50%;
     border-bottom-left-radius: 70px;
     text-align: center;
+    padding: 5px;
 }
 
 .contenido_2>p {
@@ -233,6 +235,7 @@ body {
     position: relative;
     color: #f0f0f0;
     z-index: 1;
+    cursor: pointer;
   }
   
   .button::after,
@@ -420,7 +423,6 @@ body {
   }
   .fondo-login{
     height: 600px;
-    background-imag
   }
   .ubicacion{
     display: flex;
@@ -433,16 +435,13 @@ body {
     margin: 10px;
     width: 2px;
     height: 2px;
-
-    
-
   }
 
 /*Maiki*/
 
 /*Allis*/
 
-#hero.{
+#hero{
   min-height: 100vh;
   position: relative;
 }
