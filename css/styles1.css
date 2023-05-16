@@ -1,5 +1,18 @@
 @charset "UTF-8";
-
+.btn-whatsapp{
+  position: relative;
+}
+.btn-whatsapp:before,
+.btn-whatsapp:after{
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  width: 45px;
+  height: 45px;
+  background-color: #00e676;
+  border-radius: 50%;
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
