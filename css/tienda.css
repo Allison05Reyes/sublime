@@ -39,3 +39,24 @@ header, .alert{
 .hide, .remove{
   display: none;
 }
+.cont-buscador{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.buscador{
+  height: 30px;
+  width: 40%;
+  padding: 5px;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+}
+.buscador:hover{
+  border-radius: 10px;
+  border: 1px solid #0d6efd;
+}
+.buscador:focus{
+  transform: scale(1.1);
+  border: 2px solid #0d6efd !important;
+  outline: none;
+}
