@@ -1,5 +1,34 @@
 @charset "UTF-8";
+.btn-whatsapp{
+  position: relative;
+}
+.btn-whatsapp:before,
+.btn-whatsapp:after{
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  width: 45px;
+  height: 45px;
+  background-color: #00e676;
+  border-radius: 50%;
+  animation: ondas 1.7s infinite;
+}
+.btn-whatsapp img{
+  position: relative;
+  z-index: 2;
+}
+@keyframes ondas{
+  0%{
+    transform: scale(1);
+  }
+  15%{
+    
+  }
+  100%{
 
+  }
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -7680,6 +7709,7 @@ textarea.form-control-lg {
 .mx-4 {
   margin-right: 1.5rem !important;
   margin-left: 1.5rem !important;
+  background-color: #0d6efd !important;
 }
 
 .mx-5 {
