@@ -155,3 +155,22 @@ document.addEventListener("keyup", e=>{
 
 
 })
+
+/** Boton para enviar pedido a whatsapp */
+function enviarPedido() {
+  const carrito = document.getElementById('pills-contact');
+  const total = document.getElementById('itemCartTotal').textContent;
+
+  let mensaje = 'Pedido:\n';
+  for (let i = 0; i < carrito.children.length; i++) {
+    mensaje += carrito.children[i].textContent + '\n';
+  }
+  mensaje += 'Total: $' + total;
+
+  // Reemplaza el siguiente número con tu número de WhatsApp
+  const numeroWhatsApp = '573224736823';
+
+  // Envío de la solicitud POST al servicio de mensajes de WhatsApp
+  const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
+  window.open(urlWhatsApp, '_blank');
+}
