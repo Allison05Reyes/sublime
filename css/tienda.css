@@ -63,3 +63,14 @@ header, .alert{
 .filtro{
   display: none;
 }
+.filtros{
+  display: flex;
+  justify-content: space-around;
+}
+.anuncio{
+  background-color: #0d6efd;
+  padding: 5px;
+  color: white;
+  border-radius: 56px;
+  margin-bottom: 10px;
+}

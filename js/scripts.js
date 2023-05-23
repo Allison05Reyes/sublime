@@ -158,12 +158,13 @@ document.addEventListener("keyup", e=>{
 
 /** Boton para enviar pedido a whatsapp */
 function enviarPedido() {
+  
   const carrito = document.getElementById('pills-contact');
   const total = document.getElementById('itemCartTotal').textContent;
-
+  const cantActualizado = document.querySelector(".input__elemento");
   let mensaje = 'Pedido:\n';
   for (let i = 0; i < carrito.children.length; i++) {
-    mensaje += carrito.children[i].textContent + '\n';
+    mensaje += carrito.children[i].textContent +  '\n';
   }
   mensaje += 'Total: $' + total;
 
@@ -174,3 +175,4 @@ function enviarPedido() {
   const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
   window.open(urlWhatsApp, '_blank');
 }
+
