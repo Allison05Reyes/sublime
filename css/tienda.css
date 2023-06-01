@@ -66,11 +66,20 @@ header, .alert{
 .filtros{
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 .anuncio{
-  background-color: #0d6efd;
-  padding: 5px;
   color: white;
-  border-radius: 56px;
-  margin-bottom: 10px;
+}
+@media screen and (max-width: 990px) {
+    .filtros{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .anuncio{
+      padding: 1px;
+      color: white !important;
+    }
 }
